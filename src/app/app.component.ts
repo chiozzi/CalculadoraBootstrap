@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 
 // null faz com que os inputs iniciem sem nenhum número
 export class AppComponent {
+  title = 'CalculadoraBootstrap';  
+
   num1: number | null = null;
   num2: number | null = null;
   resultado: number | null = null;
